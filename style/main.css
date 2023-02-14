@@ -1,0 +1,531 @@
+@import url(./fonts/fonts.css);
+
+.list-group {
+    --bs-list-group-border-width: 0px;
+    --bs-list-group-bg: none !important;
+    --bs-list-group-item-padding-x: 0.6rem !important;
+}
+
+.progress {
+    --bs-progress-height: 1.5rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: rgba(245, 214, 171, 1);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: rgba(245, 214, 171, 1);
+    --bs-progress-bar-bg: rgba(198, 108, 73, 1);
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: none;
+    border-radius: var(--bs-progress-border-radius);
+}
+
+@media (min-width: 1200px)and (max-width:1440px) {
+
+    header {
+        height: 768px;
+    }
+
+    .fw-24 {
+        font-family: "Franklin-Bold";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29.09px;
+    }
+
+    .fw-bold {
+        font-family: "Franklin-Bold";
+        font-weight: 600 !important;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .card-text-1440 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77.57px;
+        margin-bottom: 26px;
+    }
+
+    .card-text-1440-2 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.09px;
+        margin-bottom: 106px !important;
+    }
+
+    .card-text-1440-3 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.82px;
+    }
+
+    .container-about {
+        height: 520px;
+    }
+
+    .container-about-name,
+    .conteiner-skills-name,
+    .conteiner-portfolio-name,
+    .conteiner-footer-name {
+        font-family: "Franklin-Bold";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29.09px;
+        margin-top: 93px;
+        margin-bottom: 76px;
+        margin-left: 20px;
+    }
+
+    .conteiner-skills {
+        height: 693px;
+    }
+
+    .conteiner_1 {
+        width: 28% !important;
+    }
+
+    .conteiner_2 {
+        width: 73% !important;
+    }
+
+    .conteiner-skills-name {
+        margin: 90px 0 86px 35px;
+    }
+
+    .conteiner-portfolio {
+        height: 848px;
+        position: relative;
+    }
+
+    .conteiner-portfolio-name {
+        margin: 116px 0 86px 34px;
+    }
+
+    .conteiner-footer {
+        height: 528px;
+        position: relative;
+    }
+
+    .conteiner-footer-name {
+        margin: 43px 0 43px 45px;
+    }
+
+    .bg-md-img {
+        width: 350px;
+        height: 340px;
+        background-image: url(../images/Profile\ Picture.png) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+
+    .btn-next-1440 {
+        position: absolute;
+        left: 179px;
+        bottom: 134px;
+        width: 97px;
+        height: 50px;
+
+    }
+
+    .mt-fw {
+        font-family: "Franklin-Bold";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 0 41px 35px;
+    }
+
+    .mx-fw {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 10px 0px 36px;
+        padding-right: 78px;
+        padding-top: 6px;
+    }
+
+    .ps-xl-10 {
+        padding-left: 2.2rem !important;
+    }
+
+    .mb-39 {
+        margin-bottom: 39px;
+    }
+
+    .my-10 {
+        margin-top: 58px !important;
+        margin-bottom: 130px !important;
+    }
+
+    .mx-1419 {
+        padding-left: 14px;
+        padding-right: 19px;
+        line-height: 35px;
+    }
+
+    .ms-6 {
+        margin-left: 44px;
+        margin-right: 44px;
+        margin-bottom: 28px;
+    }
+
+    .fw-18 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .lh-21 {
+        line-height: 21.82px;
+    }
+
+    .lh-fw {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18.8px;
+        padding-left: 5px;
+        letter-spacing: 1px;
+    }
+
+    .mx-1419 {
+        padding-left: 14px;
+        padding-right: 19px;
+        line-height: 35px;
+    }
+
+    .ps-23 {
+        padding-left: 23px;
+    }
+
+    .ps-10 {
+        padding-left: 35px;
+    }
+
+    .my-grid {
+        display: grid;
+        grid-template-rows: 144px 20px 18px 233px;
+        grid-template-columns: 350px 255px;
+        row-gap: 26px;
+        column-gap: 30px;
+    }
+
+    .my-grid-1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .my-grid-2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .my-grid-3 {
+        grid-row: 2/5;
+        grid-column: 1/2;
+    }
+
+    .my-grid-4 {
+        grid-row: 4/6;
+        grid-column: 2/3;
+    }
+
+    .back {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 430px;
+        bottom: 87px;
+        right: 150px;
+
+    }
+
+}
+
+@media (min-width: 375px) and (max-width:1200px) {
+
+    .conteiner-header {
+        height: 278px;
+        background-color: rgba(198, 108, 73, 4);
+        z-index: 2;
+        opacity: 95%;
+    }
+
+    .me-123 {
+        margin-right: 115px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../images/menu_FILL0_wght400_GRAD0_opsz48.svg);
+    }
+
+    .fw-24 {
+        font-family: "Franklin-Bold";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29.09px;
+    }
+
+    .fw-bold {
+        font-family: "Franklin-Bold";
+        font-weight: 600 !important;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .card-img {
+        z-index: 3;
+
+    }
+
+    .card-img-overlay {
+        z-index: 4;
+    }
+
+    .bg-md-img {
+        width: 224px;
+        height: 218px;
+        background-image: url(../images/Profile\ Picture.png) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin: auto;
+    }
+
+    .card-text-1440 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 13px;
+    }
+
+    .card-text-1440-2,
+    .card-text-1440-3 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15.76px;
+    }
+
+    .card-text-1440-2 {
+        margin-bottom: 41px;
+    }
+
+    .container-about {
+        height: 293px;
+    }
+
+    .container-about-name,
+    .conteiner-skills-name,
+    .conteiner-portfolio-name,
+    .conteiner-footer-name {
+        font-family: "Franklin-Bold";
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.09px;
+        margin: 25px auto;
+
+    }
+
+    .conteiner-skills {
+        height: 617px;
+    }
+
+    .conteiner-skills-name {
+        margin: 25px 0 25px;
+    }
+
+    .conteiner-portfolio {
+        height: 404px;
+    }
+
+    .btn-next-1440 {
+        display:none !important;
+    }
+
+    .conteiner-footer {
+        height: 360px;
+        position: relative;
+    }
+
+    .conteiner-footer-name {
+        margin: 26px auto 25px;
+    }
+
+    .mt-fw {
+        font-family: "Franklin-Bold";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0 0 15px 0;
+    }
+
+    .mx-fw {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.54px;
+        margin: 0 auto 20px;
+        text-align: center;
+        padding: 0 18px;
+
+    }
+
+    .ps-xl-10 {
+        margin-bottom: 26px;
+    }
+
+    .mb-39 {
+        margin-bottom: 15px;
+    }
+
+    .my-10 {
+        margin: 0px auto 50px;
+    }
+
+    .mx-1419 {
+        padding-left: 14px;
+        padding-right: 19px;
+        line-height: 35px;
+    }
+
+
+
+    .fw-18 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .ms-6 {
+        margin-left: 34px;
+        margin-right: 29px;
+        margin-bottom: 5px;
+        line-height: 14.54px;
+    }
+
+    .lh-21 {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.97px;
+
+    }
+
+    .lh-fw {
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18.8px;
+        padding-left: 5px;
+        letter-spacing: 1px;
+    }
+
+    .mx-1419 {
+        padding-left: 0;
+        padding-right: 0;
+        line-height: 25px;
+    }
+
+    .ps-10 {
+        padding-left: 41px;
+    }
+
+    .ps-12 {
+        padding-left: 22px !important;
+    }
+
+    .ps-23 {
+        padding-left: 23px;
+    }
+
+    .my-grid {
+        display: grid;
+        grid-template-rows: 65px 11px 7px 72px;
+        grid-template-columns: 167px 123px;
+        row-gap: 12.961px;
+        column-gap: 14.55px;
+        justify-content: center;
+    }
+
+    .my-grid-1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        width: 169.76px;
+        height: 69.85px;
+    }
+
+    .my-grid-1-img {
+        width: 169.76px;
+        height: 69.85px;
+    }
+
+    .my-grid-2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        width: 123.69px;
+        height: 113.01px;
+    }
+
+    .my-grid-2-img {
+        width: 123.69px;
+        height: 113.01px;
+    }
+
+    .my-grid-3 {
+        grid-row: 2/5;
+        grid-column: 1/2;
+        width: 169.28px;
+        height: 113.01px;
+
+    }
+
+    .my-grid-3-img {
+        width: 169.28px;
+        height: 113.01px;
+    }
+
+    .my-grid-4 {
+        grid-row: 4/6;
+        grid-column: 2/3;
+        width: 123.69px;
+        height: 69.85px;
+    }
+
+    .my-grid-4-img {
+        width: 123.69px;
+        height: 69.85px;
+    }
+
+    .back {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 264px;
+        bottom: 0;
+        right: 0;
+
+    }
+
+}
+
+@media (max-width: 375px)
+{
+    .btn-next-1440 {
+        display:none !important;
+    }
+}

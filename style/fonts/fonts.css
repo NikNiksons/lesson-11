@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Franklin-Bold" ;
+    src: url(static/LibreFranklin-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(./static/LibreFranklin-Regular.ttf);
+}
